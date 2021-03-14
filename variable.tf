@@ -4,11 +4,11 @@ variable "region" {
 }
 
 variable "access_key" {
-  default = "AKIA6PB43W2ZOG7LSPPE"
+  default = ""
   type    = string
 }
 variable "secret_key" {
-  default = "fwHiON0tUwufVYDSt0EOabuEyi5rzFXbZPzroX1T"
+  default = "f1T"
   type    = string
 }
 variable "cluster_name" {
