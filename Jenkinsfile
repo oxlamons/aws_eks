@@ -14,6 +14,12 @@ pipeline {
     }
 
     stages {
+        steps {
+            sh "git clone ${https://github.com/oxlamons/aws_eks}"
+            dir("ui-dashboard") {
+            sh "git checkout ${params.master}"
+}
+}
         stage('Plan') {
             steps {
                 script {
